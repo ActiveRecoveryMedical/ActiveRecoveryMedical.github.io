@@ -1,0 +1,58 @@
+.Box {
+    max-width: 28rem;
+    border-radius: 10px;
+}
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: #2b2a35;
+}
+
+:root {
+    --mine-white: #fff;
+    --mine-grey-4: #d5d4d7;
+    --mine-grey-5: #d8d8d8;
+    --mine-light-purple: #f6f4fe;
+    --font-bold: 700;
+    --font-size-large: 4.8rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    background: #fff3d2;
+}
