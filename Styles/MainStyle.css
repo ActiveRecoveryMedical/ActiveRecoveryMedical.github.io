@@ -21,3 +21,13 @@ div.desc {
 .image{
     max-width: 300px;
 }
+.activeSelection{
+    background-color: blue;
+    color:whitesmoke;
+    font-size:large;
+}
+.notSelected {
+    background-color: palegreen;
+    color: darkblue;
+    font-size: large;
+}
